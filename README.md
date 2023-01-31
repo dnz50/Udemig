@@ -12,4 +12,4 @@
 
  ## WEB-PAGE-GIF
 
-![Alt text](../site/ekran.gif)
+![Alt text](images/ekran.gif)
