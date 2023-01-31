@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Udemig</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+                <img src="images/Udemig.png" style="width: 12vh;" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            COURSES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Web For Children</a></li>
+                            <li><a class="dropdown-item" href="#">Web For Adults</a></li>
+                            <li><a class="dropdown-item" href="#">Mentoring For Adult </a></li>
+                            <li><a class="dropdown-item" href="#">IOS-Swift</a></li>
+                            <li><a class="dropdown-item" href="#">Tester</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex mx-4" role="search">
+                    <button class="btn btn-outline-success m-2" type="submit">Log in</button>
+                    <button class="btn btn-outline-success m-2" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--section 1 -->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="images/hero-img.png" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Bootstrap Themes"
+                    width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-outline-success btn-lg px-4">Our Courses</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--section 1 end-->
+
+
+    <!-- hover icon -->
+    <div class="container hovicon px-4 py-5">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xl-4 col-sm-6 mt-2">
+                <div class="card" style="width: 22rem;">
+                    <i class="bi bi-flag"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Expert Teacher</h4>
+                        <p class="card-text">Develop skills for career of various majors including computer.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-xl-4 col-sm-6 mt-2">
+                <div class="card" style="width: 22rem;">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Self Development</h4>
+                        <p>Develop skills for career of various majors including computer.</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-xl-4 col-sm-6 mt-2">
+                <div class="card" style="width: 22rem; ">
+                    <i class="bi bi-person-workspace"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Remote learning</h4>
+                        <p>Develop skills for career of various majors including computer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- hover icon end -->
+
+    <!-- img cards -->
+    <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Explore by category</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('images/fend.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Front-End</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="images/Udemig.png" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill" />
+                                </svg>
+                                <small>Front-End</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3" />
+                                </svg>
+                                <small>3d</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('images/bend.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Back-End
+                        </h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="images/Udemig.png" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill" />
+                                </svg>
+                                <small>Back-End</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3" />
+                                </svg>
+                                <small>4d</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                    style="background-image: url('images/design.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Design</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <img src="images/Udemig.png" alt="Bootstrap" width="32" height="32"
+                                    class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill" />
+                                </svg>
+                                <small>Design</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3" />
+                                </svg>
+                                <small>5d</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-outline-success">EXPLORE ALL</button>
+        </div>
+    </div>
+    <!-- img cards end -->
+
+    <!--price cards-->
+    <div class="container  px-4 py-5">
+        <div class="price-text d-flex  justify-content-between">
+            <div>
+                <h5 class="text-success">TRENDİNG COURSES</h5>
+                <h1>Popular Online Courses Around You</h1>
+                <p>The ultimate planning solution for people who want to reach their personal goals</p>
+            </div>
+            <div class="price-btn">
+                <button type="button" class="btn btn-outline-success">ALL COURSES</button>
+            </div>
+
+        </div>
+
+        <div class="row overflow-hidden">
+
+            <div class="card col-md-6 m-1" style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                    <div class="col-md-4 ">
+                        <img src="images/course-sm1.jpg" class="img-fluid rounded-circle p-2" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title text-success"><strong>$500 </strong><span
+                                    class="text-decoration-line-through text-success text-opacity-25">$700</span></h3>
+                            <h3 class="card-text">
+                                Web Development for Children
+                            </h3>
+                            <p class="card-text"><small class="text-muted">By Mehmet CAN 82 Lessons</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-md-6 m-1" style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                    <div class="col-md-4 ">
+                        <img src="images/course-sm4.jpg" class="img-fluid rounded-circle p-2" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title text-success-emphasis"><strong>$2000 </strong><span
+                                    class="text-decoration-line-through text-success text-opacity-25">$2300</span></h3>
+                            <h3 class="card-text">
+                                Web Development for Adults
+                            </h3>
+                            <p class="card-text"><small class="text-muted">By Mehmet CAN 82 Lessons</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-md-6 m-1" style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                    <div class="col-md-4 ">
+                        <img src="images/course-sm3.jpg" class="img-fluid rounded-circle p-2" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title text-success-emphasis"><strong>$2000 </strong><span
+                                    class="text-decoration-line-through text-success text-opacity-25">$2300</span></h3>
+                            <h3 class="card-text">
+                                IOS-Swift
+                            </h3>
+                            <p class="card-text"><small class="text-muted">By Mehmet CAN 82 Lessons</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-md-6 m-1" style="max-width: 540px;">
+                <div class="row g-0 p-2">
+                    <div class="col-md-4 ">
+                        <img src="images/course-sm4.jpg" class="img-fluid rounded-circle p-2" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h3 class="card-title text-success-emphasis"><strong>$2000 </strong> <span
+                                    class="text-decoration-line-through text-success text-opacity-25">$2300</span> </h3>
+                            <h3 class="card-text">
+                                Tester
+                            </h3>
+                            <p class="card-text"><small class="text-muted">By Mehmet CAN 82 Lessons</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--price cards end-->
+
+    <div class="container px-4 py-5">
+
+        <h5>SELF DEVELOPMENT COURSE</h5>
+        <h2 class="pb-2 border-bottom">Get Instant Access To
+            Expert solution</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+            <div class="col d-flex flex-column align-items-start gap-2">
+
+                <h5 class="text-success">TRENDING COURSES</h5>
+                <h2>Over 200+ New Online Courses</h2>
+                <p>The ultimate planning solution for people who want to reach their personal goals</p>
+
+                <div class="bg-secondary bg-opacity-25 p-3">
+                    <h5 class="text-success">TESTIMONIALS</h5>
+                    <h2>Success Stories From Trainees</h2>
+                    <p>The ultimate planning solution for people who want to reach their personal goals.Effortless comfortable eye-catching unique detail.Take the control of their life back
+                        </p>
+                     <p>Help you to get the best course that fits you</p>
+                     <a href="#" class="text-success mb-3"> Free Consultation</a>   
+                
+
+                <!--carousel-->
+
+                <div id="carouselExampleIndicators" class="carousel slide carousel-dark mt-2">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card" >
+                            <img src="images/test-1.jpg" class="card-img-top rounded-circle m-3" style="width: 100px;"alt="...">
+                            <div class="card-body">
+                               <small>Henry Smith</small>
+                              <h3 class="card-title">One of the easiest Online systems</h3>
+                              <p class="card-text mb-4">People who build their own home tend to be very
+                                cougareous. These people are curious about life and enjoyed teaching. </p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" >
+                            <img src="images/test-3.jpg" class="card-img-top rounded-circle m-3" style="width: 100px;"alt="...">
+                            <div class="card-body">
+                               <small>Jessica Smith</small>
+                              <h3 class="card-title">Explonatory Documents Online</h3>
+                              <p class="card-text mb-4">Very energetic and personable People who build their own home tend to be very
+                                . These people are curious about life.</p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card" >
+                            <img src="images/test-2.jpg" class="card-img-top rounded-circle m-3" style="width: 100px;"alt="...">
+                            <div class="card-body">
+                               <small>Steve COPS</small>
+                              <h3 class="card-title">This is education is very good</h3>
+                              <p class="card-text mb-4">These days I am devoloping new project own. People who build their own home tend to be very
+                                cougareous.</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                <p class="text-muted">The ultimate planning solution for people who want to reach their personal
+                    goals.Effortless comfortable eye-catching unique detail.Take the control of their life back and
+                    start doing things</p>
+                <a href="#" class="btn btn-outline-success btn-lg">JOIN NOW</a>
+            </div>
+        </div>
+
+            <div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small position-relative d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                            <img src="images/course-sm1.jpg" alt="">
+                            <span class="position-absolute top-0 start-10 translate-middle badge bg-success">$2000</span>
+
+                        </div>
+                        <div class="d-flex">
+                            <small>
+                                <i class="bi bi-person"></i>
+                                340 Students 
+                                <i class="bi bi-journal-text"></i>  
+                                82 Lessons
+                            </small>
+
+                        </div>
+                        <h4 class="fw-semibold mb-0">Web Frontend</h4>
+                        <p class="text-muted">Front-end web development is the development of the graphical user
+                            interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view
+                            and interact with that website.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small position-relative d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                            <img src="images/course-sm4.jpg" alt="">
+                            <span class="position-absolute top-0 start-10 translate-middle badge bg-success">$2000</span>
+
+                        </div>
+                        <div class="d-flex">
+                            <small>
+                                <i class="bi bi-person"></i>
+                                340 Students 
+                                <i class="bi bi-journal-text"></i>  
+                                82 Lessons
+                            </small>
+
+                        </div>
+                        <h4 class="fw-semibold mb-0">Web Design</h4>
+                        <p class="text-muted">Front-end web development is the development of the graphical user
+                            interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view
+                            and interact with that website.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small position-relative d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3">
+                            <img src="images/course-sm3.jpg" alt="">
+                            <span class="position-absolute top-0 start-10 translate-middle badge bg-success">$2000</span>
+
+                        </div>
+                        <div class="d-flex">
+                            <small>
+                                <i class="bi bi-person"></i>
+                                340 Students 
+                                <i class="bi bi-journal-text"></i>  
+                                82 Lessons
+                            </small>
+
+                        </div>
+                        <h4 class="fw-semibold mb-0">Web Backend</h4>
+                        <p class="text-muted">In software engineering, the terms frontend and backend (or sometimes
+                            referred to as back end or back-end) refer to the separation of concerns between the
+                            presentation layer (frontend), and the data access layer (backend) of a piece of software,
+                            or the physical infrastructure or hardware.</p>
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <div
+                            class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-4 rounded-3 position-relative">
+                            <img src="images/course-sm4.jpg" class="">
+                            <span class="position-absolute top-0 start-10 translate-middle badge bg-success">$2000</span>
+                        </div>
+                        <div class="d-flex">
+                            <small>
+                                <i class="bi bi-person"></i>
+                                340 Students 
+                                <i class="bi bi-journal-text"></i>  
+                                82 Lessons
+                            </small>
+
+                        </div>
+                        <h4 class="fw-semibold mb-0">Tester</h4>
+                        <p class="text-muted">Software testing is research conducted to provide information to
+                            stakeholders about the quality of services or products under testing, software testing is
+                            also the independent and objective examination of software to understand the risks of
+                            software applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- counter -->
+    <div class="wrapper">
+        <div class="container">
+            <i class="fas fa-chalkboard-user"></i>
+            <span class="num" data-val="090">000</span>
+            <span class="text">Instructors</span>
+        </div>
+
+        <div class="container">
+            <i class="fas fa-layer-group"></i>
+            <span class="num" data-val="1450">0000</span>
+            <span class="text">Total Courses</span>
+        </div>
+
+        <div class="container">
+            <i class="fas fa-flag"></i>
+            <span class="num" data-val="5670">0000</span>
+            <span class="text">Registered Enrolls</span>
+        </div>
+
+        <div class="container">
+            <i class="fas fa-smile-beam"></i>
+            <span class="num" data-val="100">000 %</span>
+            <span class="text">Satisfaction Rate %</span>
+        </div>
+    </div>
+    <!--counter end-->
+
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h5 class="text-success">BLOG NEWS</h5>
+                <h1 class="display-4 fw-bold lh-1">Latest From The Blog</h1>
+                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
+                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
+                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-outline-success px-4 me-md-2 fw-bold">Explore</button>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="images/blog3.jpg" alt="" width="550">
+            </div>
+        </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <div class="bg-secondary text-light px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">Want to Become an Instructor ?</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
+                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-light btn-lg px-4">BECOME INSTRUCTOR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="p-5 bg-dark"data-bs-theme="dark">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column text-light flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-instagram" width="24" height="24">
+                            <use xlink:href="#instagram" />
+                        </i></a></li>
+                <li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-facebook" width="24" height="24">
+                            <use xlink:href="#facebook" />
+                        </i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <button type="button" class="btn btn-outline-success btn-floating btn-lg" id="btn-back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

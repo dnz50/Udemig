@@ -1,0 +1,127 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  body {
+    
+  } */
+  .wrapper {
+    /* position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    width: 84%;
+    margin-left: 8vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: #121317;
+    border-radius: 8px;
+  }
+  .wrapper .container {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color: #21242b;
+    border-bottom: 10px solid #18f98f;
+  }
+  .wrapper i {
+    color: #18f98f;
+    font-size: 2.5em;
+    text-align: center;
+    height: 50px;
+  }
+  .wrapper span.num {
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+  }
+  .wrapper span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+  }
+  @media screen and (max-width: 1024px) {
+    .wrapper {
+      width: 85vw;
+    }
+    .wrapper .container {
+      height: 26vmin;
+      width: 26vmin;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      width: 90vw;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .wrapper .container {
+      width: calc(50% - 40px);
+      height: 30vmin;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      gap: 15px;
+    }
+    .wrapper .container {
+      width: 100%;
+      height: 25vmin;
+      font-size: 8px;
+    }
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width:55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .hovicon .bi{
+
+    font-size: 60px;
+    text-align: center;
+    padding: 5px;
+    color: #20ad96;
+
+    width: 300px !important;
+    height: 90px !important;
+
+  }
+  .hovicon .bi:hover{
+    font-size: 65px;
+  }
+
+
+  .hovicon h4:hover{
+    color: #20ad96;
+  }
+
+  .price-btn{
+    display: flex;
+    align-items: center;
+  }
